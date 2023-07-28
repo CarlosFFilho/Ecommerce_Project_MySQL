@@ -106,7 +106,7 @@ create table product_supplier (
         constraint fk_suplier_storage foreign key (supplier_storage_id) references product_storage (product_storage_id));
 
 
--- inserindo dados no bando de dados MySQL
+-- inserindo dados no banco de dados MySQL
 
 use ecommerce;
 
